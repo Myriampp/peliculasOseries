@@ -25,7 +25,7 @@ public class PeliculaOserieEntity {
 	private LocalDate fechaEstreno;
 	private Long calificacion;
 	
-	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@ManyToOne()
 	@JoinColumn(name = "genero_id", insertable = false, updatable = false )
 	private GeneroEntity genero;
 

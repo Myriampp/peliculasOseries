@@ -14,6 +14,7 @@ public class GeneroEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
+	private String imagen;
 	private Long nombre;
 	
 }
