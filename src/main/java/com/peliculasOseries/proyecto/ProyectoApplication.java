@@ -2,8 +2,8 @@ package com.peliculasOseries.proyecto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication(scanBasePackages = "com.peliculasOseries.proyectoApplication" )
 
-@SpringBootApplication
 public class ProyectoApplication {
 
 	public static void main(String[] args) {
